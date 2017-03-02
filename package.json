@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/ios-training-class/simple-api#readme",
   "dependencies": {
+    "body-parser": "^1.17.0",
     "config": "^1.25.1",
     "express": "^4.15.0",
     "nodemon": "^1.11.0",
