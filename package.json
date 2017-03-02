@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ios-training-class/simple-api#readme",
   "dependencies": {
     "express": "^4.15.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "winston": "^2.3.1"
   }
 }
