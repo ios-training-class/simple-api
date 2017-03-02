@@ -18,7 +18,7 @@ router.get('/hello1', function(req, res) {
 
 router.get('/:code', function(req, res) {
   res.status(req.params.code).send('Status code:' + req.params.code);
-})
+});
 
 router.get('/', function(req, res) {
   axios.get(API_QUOTE, {
@@ -53,4 +53,3 @@ router.get('/:id(\\d+)', function(req, res) {
 });
 
 module.exports = router;
-

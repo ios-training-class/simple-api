@@ -19,5 +19,3 @@ var server = app.listen(config.get('server.port'), function() {
   var port = server.address().port;
   logger.info('Server start at http://%s:%s', '0.0.0.0', 3000);
 });
-
-
