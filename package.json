@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ios-training-class/simple-api#readme",
   "dependencies": {
+    "axios": "^0.15.3",
     "body-parser": "^1.17.0",
     "config": "^1.25.1",
     "express": "^4.15.0",
