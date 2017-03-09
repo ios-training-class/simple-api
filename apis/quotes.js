@@ -16,8 +16,8 @@ router.get('/hello1', function(req, res) {
   res.send(JSON.stringify({'hello': 'world'}));
 });
 
-router.get('/:code', function(req, res) {
-  res.status(req.params.code).send('Status code:' + req.params.code);
+router.get('/403', function(req, res) {
+  res.status(403).send('Status: Forbidden');
 });
 
 router.get('/', function(req, res) {
