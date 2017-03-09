@@ -29,10 +29,7 @@ router.get('/', function(req, res) {
 	  }
   })
 	.then(function (response) {
-    return response.data;
-  })
-   .then(function (response) {
-    res.send(response);
+    res.status(200).send(response.data);
   })
   .catch(function (error) {
     logger.error(error);
