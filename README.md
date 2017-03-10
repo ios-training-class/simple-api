@@ -4,15 +4,19 @@
 
    $ npm install
 
+Or using [Yarn](https://yarnpkg.com)
+
+   $ yarn
+
 ## How to run
 
-  $ npm start
+  $ npm run dev
   
 ## API:
 
 ### Get string by GET method
 
-http://0.0.0.0:3000/api/v1/quotes/hello
+`GET /hello`
 
 ```
 hello world
@@ -20,7 +24,7 @@ hello world
 
 ### Get string by POST method
 
-http://0.0.0.0:3000/api/v1/quotes/hello
+`POST /hello`
 
 ```
 hello world from post method
@@ -28,7 +32,7 @@ hello world from post method
 
 ### Get JSON object by GET method
 
-http://0.0.0.0:3000/api/v1/quotes/hello1
+`GET /hello1`
 
 ```
 {
@@ -38,7 +42,7 @@ http://0.0.0.0:3000/api/v1/quotes/hello1
 
 ### Return 403 status code
 
-http://0.0.0.0:3000/api/v1/quotes/403
+`GET /403`
 
 ```
 Status: Forbidden
@@ -46,7 +50,7 @@ Status: Forbidden
 
 ### Get random quote
 
-http://0.0.0.0:3000/api/v1/quotes
+`GET /quotes`
 
 ```
 {
@@ -62,7 +66,7 @@ http://0.0.0.0:3000/api/v1/quotes
 
 ### Get quote by Id
 
-http://0.0.0.0:3000/api/v1/quotes/709
+`GET /quotes/709`
 
 ```
 {
