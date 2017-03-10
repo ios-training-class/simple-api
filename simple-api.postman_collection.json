@@ -1,0 +1,77 @@
+{
+	"variables": [],
+	"info": {
+		"name": "simple-api",
+		"_postman_id": "80159736-1efb-21f4-e9be-247d0e72e5bb",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get random quote",
+			"request": {
+				"url": "http://localhost:3000/quotes",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get string by GET method",
+			"request": {
+				"url": "http://localhost:3000/hello",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get string by POST method",
+			"request": {
+				"url": "http://localhost:3000/hello",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get JSON object by GET method",
+			"request": {
+				"url": "http://localhost:3000/hello1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Return 403 status code",
+			"request": {
+				"url": "http://localhost:3000/403",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get quote by Id",
+			"request": {
+				"url": "http://localhost:3000/quotes/709",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
