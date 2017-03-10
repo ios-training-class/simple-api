@@ -57,8 +57,8 @@ app.use(function(err, req, res, next) {
 });
 
 // start server
-var server = app.listen(config.get('server.port'), function() {
+var server = app.listen(process.env.PORT || config.get('server.port'), function() {
   var host = server.address().address;
   var port = server.address().port;
-  logger.info('Server start at http://%s:%s', '0.0.0.0', 3000);
+  logger.info('Server start at http://%s:%s', '0.0.0.0', process.env.PORT || config.get('server.port'));
 });
