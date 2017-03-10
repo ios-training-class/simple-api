@@ -4,22 +4,6 @@ var logger = require('../helpers/logger');
 var router = express.Router();
 var API_QUOTE = 'http://quotesondesign.com/wp-json/posts';
 
-router.get('/hello', function(req, res) {
-  res.send('hello world');
-});
-
-router.post('/hello', function(req, res) {
-  res.send('hello world from post method');
-});
-
-router.get('/hello1', function(req, res) {
-  res.send(JSON.stringify({'hello': 'world'}));
-});
-
-router.get('/403', function(req, res) {
-  res.status(403).send('Status: Forbidden');
-});
-
 router.get('/', function(req, res) {
   axios.get(API_QUOTE, {
 	  params: {
